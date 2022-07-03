@@ -1,0 +1,28 @@
+{
+  "db": [
+    {
+      "Id": 1,
+      "Name": "Dining Table",
+      "Cost": 1000.0,
+      "Description": "Best Dining table"
+    },
+    {
+      "Id": 2,
+      "Name": "Rotating Chair",
+      "Cost": 100.0,
+      "Description": "Most comfortamble chair"
+    },
+    {
+      "Id": 3,
+      "Name": "Big Ladder",
+      "Cost": 200.0,
+      "Description": "Can reach till celing"
+    },
+    {
+      "Id": 4,
+      "Name": "Table",
+      "Cost": 250.0,
+      "Description": "This is a big table"
+    }
+  ]
+}
