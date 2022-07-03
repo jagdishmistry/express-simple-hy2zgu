@@ -12,8 +12,21 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
-// configure routes
-const router = express.router();
-router.get('/', (req, res) => {
-  '${package.description} - v${package.version}'); 
-});
+
+// setup client
+//var Client = require('node-rest-client').Client;
+//var client = new Client();
+
+var fs = require('fs');
+var arrayPath = './database/db.json';
+
+function fsReadFileSynchToArray("/database") {
+  var data = JSON.parse(fs.readFileSync("/database"));
+  console.log(data);
+  return data;
+}
+
+var test  = arr.loadFile(arrayPath);
+console.log(test);
+
+// client.get
