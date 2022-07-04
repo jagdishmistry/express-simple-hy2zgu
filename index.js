@@ -14,16 +14,16 @@ app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
 
-var fs = require('fs');
-var arrayPath = './database/db.json';
-function fsReadFileSynchToArray("./database") {
-  var data = JSON.parse(fs.readFileSync("./database"));
-  console.log(data);
-  return data;
-}
+//var fs = require('fs');
+//var arrayPath = './database/db.json';
+//function fsReadFileSynchToArray("./database") {
+//  var data = JSON.parse(fs.readFileSync("./database"));
+//  console.log(data);
+//  return data;
+//}
 
-var test  = arr.loadFile(arrayPath);
-console.log(test);
+//var test  = arr.loadFile(arrayPath);
+//console.log(test);
 
 // setup client
 //var Client = require('node-rest-client').Client;
