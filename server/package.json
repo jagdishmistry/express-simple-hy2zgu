@@ -1,0 +1,13 @@
+{
+  "name": "json-starter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "json-server --watch /database/db.json"
+  },
+
+  "name1": "server",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
